@@ -20,7 +20,7 @@ public:
     QString get_application_to_launch();
     QString get_application_working_dir();
     QString get_command_line();
-    QProcessEnvironment get_process_environment();
+    QProcessEnvironment get_process_environment(bool just32bits);
     QString get_trace_file_path();
 
 private
